@@ -1,0 +1,70 @@
+.posted-content {
+    border:10px 20px solid black;
+    width:20px;
+    transition: width 300ms, transform 300ms;
+    transform: translateX(0);
+  }
+  
+  .content-inside{
+    display: none;
+   
+  }
+  .content-inside.open{
+    display: block;
+  }
+  .posted-content.open {
+    display: block;
+    width: 200px;
+    margin-left: -30px;
+    transform: translateX(100px);
+  }
+  
+
+
+
+
+
+  #rotate{
+    vertical-align:top;
+    transform:rotate(7deg);
+    -ms-transform:rotate(90deg); /* IE 9 */
+    -moz-transform:rotate(90deg); /* Firefox */
+    -webkit-transform:rotate(90deg); /* Safari and Chrome */
+    -o-transform:rotate(90deg); /* Opera */}
+      
+  #vert{
+    height: auto;
+    min-width: auto;
+  }
+  
+ 
+  input{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    
+    cursor:pointer;
+    height:50px;
+    min-width: 30px;
+    position:relative;
+    
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 0 10px;	
+  
+    font-size: 20px;
+  }
+  
+  
+ 
+  
+  .button-container {
+    display: grid;
+    grid-gap: 40px;
+   margin-left: -100px;
+    justify-items: center;
+    width: 150px;	
+    padding: 40px 0;
+  }

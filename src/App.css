@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+
+.container {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+.container::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+.gradient-background-1 {
+  background: linear-gradient(to right, rgb(120, 8, 181), rgb(43, 43, 234));
+}
+.gradient-background-2 {
+  background: linear-gradient(to right, rgb(181, 170, 8), rgb(220, 25, 25));
+}
+.gradient-background-3 {
+  background: linear-gradient(to right, rgb(28, 181, 8), rgb(43, 234, 116));
+}
+.gradient-background-4 {
+  background: linear-gradient(to right, rgb(167, 8, 181), rgb(234, 43, 180));
+}
+
+.gradient-background-4 {
+  background: linear-gradient(to right, rgb(154, 169, 231), rgb(75, 75, 226));
+}
+
+.gradient-background-5 {
+  background: linear-gradient(to right, rgb(129, 179, 218), rgb(93, 93, 223));
+}
+
+/* Default styles for larger screens */
+.doctorall,
+.home,
+.reports,
+.products,
+.all,
+.messageone {
+  margin-left: 70px;
+  
+}
+
+/* Gradient Background Class */
+.gradient-background {
+  background: linear-gradient(to right, blue, white);
+}
+
+/* Media query for mobile and tablet screens */
+@media (max-width: 768px) {
+  .doctorall,
+  .home,
+  .reports,
+  .products,
+  .all,
+  .messageone {
+    margin-left: 0px;
+  
+
+  }
+}
